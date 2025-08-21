@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bannière promotionnelle</title>
+  <style>
+    .promo-banner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #0f172a;
+      color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 1000px;
+      margin: 40px auto;
+    }
+    .promo-text {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .promo-image img {
+      max-height: 120px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    @media (max-width: 768px) {
+      .promo-banner {
+        flex-direction: column;
+        text-align: center;
+      }
+      .promo-image img {
+        margin-top: 15px;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="promo-banner">
+    <!-- Variables -->
+    <div class="promo-text">-25% sur toute la gamme SHISEIDO SKIN SUMMER</div>
+    <div class="promo-image">
+      <img src="https://v5.airtableusercontent.com/v3/u/44/44/1755612000000/GitDS1n7fSSNlZGkWkqG-g/JaQFhctFuA-R3skBK7pv5CrXlnXVAueOKTB21jCwWSxacKmcgab0UDqwAaL9-GtpYn4OD6KaVLTr-NAI93O2FVaEy0s7NrRkhsP1ibkciqHyL9rhE7RE9o3PnZ9jNeOmRLay5nZKL9f6AL2GBmeAeBzAngWSASEvpJtEIk_As5M/WtL4KlKwtx0MyypXZknXCPGt-c-BWqe5XV8vNZRSpBk" alt="Header Top - Campaign A" />
+    </div>
+  </div>
+</body>
+</html>
